@@ -4,15 +4,15 @@ This project is a proof of concept in training a basic classifier algorithm usin
 
 Specifically, I aim to leverage the emergent zero-shot labeling capabilities of a modern text-image transformer model to perform binary image classification, and then use a teacher-student model to distill the transformer model's knowledge in this specific domain.
 
-**This section will be fleshed out following initial exploration.**
+I will be using OpenAI's [CLIP model](https://huggingface.co/openai/clip-vit-large-patch14) for its well-documented zero-shot labeling capability.
 
 The goal of this project is to demonstrate the ability to use zero-shot methods to more cheaply and quickly develop classification models without the performance costs of evaluating highly complex machine learning models.
 
 ## Project Roadmap
 
-1. Evaluate appropriate models for this experiment. **I am here.**
+1. Evaluate appropriate models for this experiment.
 
-2. Demonstrate knowledge distillation of zero-shot labels for image classification.
+2. Demonstrate knowledge distillation of zero-shot labels for image classification. **I am here.**
 
 3. Compare the training cost, performance, and accuracy of this method versus zero-shot labeling alone.
 
